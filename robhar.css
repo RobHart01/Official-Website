@@ -1,0 +1,251 @@
+/* the whole website */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* body only */
+.wrapper {}
+/* Navigation:
+Float: Right;
+Font: Helvetica, Sans-Serif;
+Color: Black;
+Size: 24px, 1.5em, 150%, 18pt;
+Position: Fixed;
+*/
+
+.homepage {
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Helvetica", sans-serif;
+}
+
+.nav {
+  color: black;
+  font-size: 1em;
+  text-align: right;
+  position: static;
+}
+
+.nav ul li {
+  display: inline-block;   
+  padding: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.home-nav a:hover {
+  font-weight: bold;
+}
+
+.bio-nav a:hover {
+  font-weight: bold;
+}
+
+.lang-nav a{
+  position: relative;
+}
+
+.lang-nav a:hover {
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+  padding: 50px;
+}
+
+.title h1 a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.175em;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.title h1 a:hover {
+  color: #ffb000;
+  transition: all ease-out .5s;
+}
+
+.sub-title h3 {
+  font-size: 1.5em;
+  text-align: center;
+  color: black;
+}
+
+.home-content {
+    align-content: left;
+}
+
+.home-content p{
+  font-family: 'Titillium Web' 'Helvetica' sans-serif;
+  color: black;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  padding: 100px;
+  text-align: center;
+}
+
+.robert:hover {
+  color: #ffb000;
+  
+}
+
+.stuff:hover {
+  color: #5DADE2;
+}
+
+.websites:hover {
+  color: #5DADE2;
+}
+
+.begin-btn p a {
+    font-family: 'Helvetica' sans-serif;
+    font-size: 0.5em;
+    text-decoration: none;
+    color: black;
+    border-radius: 0.25em;
+    padding: 10px 10px 10px 10px;
+    border: 1px black dotted;
+    text-transform: capitalize;
+}
+
+.begin-btn {
+  text-align: center;
+}
+
+.begin-btn p a:hover {
+  color: white;
+  background-color: #ffb000;
+  transition: all ease-out .5s;
+}
+
+/* Biography from her */
+.biography {
+    background-color: black;
+    font-family: "Helvetica", sans-serif;   
+    height: 100vh;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.bio-title {
+    font-size: 2em;
+    color: #ffb000;
+    padding: 50px;
+}
+
+.selfie {
+    width: 350px;
+    height: 500px;
+    text-align: center;
+}
+
+.bio-para p{
+    font-size: 1.0em;
+    margin: 50px 200px 0px 200px;
+    color: white;
+    line-height: 2em;
+    letter-spacing: 0.01em;
+    position: absolute;
+    text-align: left;
+}
+
+.languages {
+    background-color: black;
+    font-family: "Helvetica", sans-serif;   
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.lang-title {
+    padding: 50px;
+    font-size: 2em;
+}
+
+.lang-content {
+    font-family: "Helvetica" sans-serif;
+    text-align: center;
+}
+
+.list-items {
+    padding: 200px 400px 200px 500px;
+}
+
+.front-end {
+    float: left;
+    text-align: left;
+    padding: 25px;
+}
+
+.front-end-title {
+    font-size: 2em;
+    padding-bottom: 25px;
+}
+
+.front-end-content ul li{
+    list-style: none;
+    text-align: left;
+    padding: 5px;
+}
+
+.back-end {
+    float: left;
+    text-align: left;
+    padding: 25px;
+}
+
+.back-end-title {
+    font-size: 2em;
+    padding-bottom: 25px;
+}
+
+.back-end-content ul li {
+    list-style: none;
+    text-align: left;
+    padding: 5px;
+}
+
+.frameworks {
+    float: left;
+    padding: 25px;
+}
+
+.frameworks-title {
+    font-size: 2em;
+    padding-bottom: 25px;
+}
+
+.frameworks-content ul li {
+    list-style: none;
+    text-align: left;
+    padding: 5px;
+}
+
+.other {
+    float: left;
+    padding: 25px;
+}
+
+.other-title {
+    font-size: 2em;
+    padding-bottom: 25px;
+}
+
+.other-content ul li {
+    list-style: none;
+    text-align: left;
+    padding: 5px;
+}
